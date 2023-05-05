@@ -23,35 +23,39 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Frontend Mentor | Stats preview card component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <main>
-      <div class="flex-container">
-        <div class="row">
-          <div class="col-md-6">
-            <h1>Get insights that help your business grow.</h1>
-            <p>
-              Discover the benefits of data analytics and make better decisions
-              regarding revenue, customer experience, and overall efficiency.
-            </p>
-            <span> 10k+ companies </span> <span> 314 templates</span>
-            <span> 12m+ queries </span>
-          </div>
-          <div class="col-md-6">
-            <img src="images/image-header-desktop.jpg" alt="women working" />
+      <div class="container">
+        <div class="card">
+          <div class="row">
+            <div class="col-md-6">
+              <h1>
+                Get <span class="heading-highlight">insights</span> that help
+                your business grow.
+              </h1>
+              <p>
+                Discover the benefits of data analytics and make better
+                decisions regarding revenue, customer experience, and overall
+                efficiency.
+              </p>
+              <span class="stats-heading"> 10k+ </span> <span>companies </span>
+              <span class="stats-heading"> 314 </span> <span>templates</span>
+              <span class="stats-heading"> 12m+ </span>
+              <span>queries </span>
+            </div>
+            <div class="col-md-6">
+              <div class="image-container">
+                <img
+                  src="images/image-header-desktop.jpg"
+                  alt="women working"
+                  class="photo-desktop"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
